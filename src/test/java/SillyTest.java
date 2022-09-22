@@ -84,4 +84,12 @@ public class SillyTest {
         assertTrue(base.compareTo(shorter) > 0);
         assertTrue(base.compareTo(longer) < 0);
     }
+
+    public void main(String[] args) {
+        this.testTask1();
+        this.testTask2();
+        this.testTask3();
+        this.testTask4();
+        this.testTask5();
+    }
 }
